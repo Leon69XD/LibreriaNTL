@@ -273,9 +273,7 @@ class GetIdioma{
 				break;
 		}
 	}
-  // pues te salio mal porque queria practicarlo perra 
-
-  //posngo este comentario para joder el merge
+//para joder
 	function unidad($numuero){
     $numu="";
     switch ($numuero)

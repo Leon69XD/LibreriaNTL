@@ -274,6 +274,7 @@ class GetIdioma{
 		}
 	}
 
+  //posngo este comentario para joder el merge
 	function unidad($numuero){
     $numu="";
     switch ($numuero)

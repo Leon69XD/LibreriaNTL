@@ -273,6 +273,7 @@ class GetIdioma{
 				break;
 		}
 	}
+  // pues te salio mal porque queria practicarlo perra 
 
 	function unidad($numuero){
     $numu="";

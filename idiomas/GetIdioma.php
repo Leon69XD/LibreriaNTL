@@ -146,6 +146,134 @@ class GetIdioma{
 		}
 	}
 
+  function italiano($val){
+		switch ($val) {
+			case 'UNO':
+			  $this->valnum="UNO"." ".$this->valnum;  
+				break;
+			case 'DOS':
+			  $this->valnum="DUE"." ".$this->valnum;
+				break;
+			case 'TRES':
+			  $this->valnum="TRES"." ".$this->valnum;  
+			break;
+			case 'CUATRO':	
+			  $this->valnum="QUATRO"." ".$this->valnum; 
+				break;
+			case 'CINCO':
+			  $this->valnum="CHINQUE"." ".$this->valnum; 
+				break;
+			case 'SEIS':
+			  $this->valnum="SEIS"." ".$this->valnum;
+				break;
+			case 'SIETE':
+			  $this->valnum="SIETE"." ".$this->valnum;  
+				break;
+			case 'OCHO':
+			  $this->valnum="OTTO"." ".$this->valnum;  
+				break;
+			case 'NUEVE':
+			  $this->valnum="NINE"." ".$this->valnum; 
+				break;
+			case 'DIEZ':
+			  $this->valnum="TEN"." ".$this->valnum;
+				break;
+			case 'ONCE':
+			  $this->valnum="ELEVEN"." ".$this->valnum;  
+				break;
+			case 'DOCE':
+			  $this->valnum="TWOELVE"." ".$this->valnum;  
+				break;
+			case 'TRECE':
+			  $this->valnum="THIRTEEN"." ".$this->valnum;  
+				break;
+			case 'CATORCE':
+			  $this->valnum="FOURTEEN"." ".$this->valnum;  
+				break;
+			case 'QUINCE':
+			  $this->valnum="FIVETEEN"." ".$this->valnum;  
+				break;
+			case 'DIECISEIS':
+			  $this->valnum="SIXTEEN"." ".$this->valnum;  
+				break;
+			case 'DIECISIETE':
+			  $this->valnum="SEVENTEEN"." ".$this->valnum;  
+				break;
+			case 'DIECIOCHO':
+			  $this->valnum="EIGTHTEEN"." ".$this->valnum;  
+				break;
+			case 'DIECINUEVE':
+			  $this->valnum="NINETHEEN"." ".$this->valnum;  
+				break;
+			case 'VEINTE':
+			  $this->valnum="TWENTY"." ".$this->valnum; 
+				break;
+			case 'TREINTA':
+			  $this->valnum="THIRTY"." ".$this->valnum; 
+				break;
+			case 'CUARENTA':
+			  $this->valnum="FORTY"." ".$this->valnum;
+				break;
+			case 'CINCUENTA':
+			  $this->valnum="FIFTY"." ".$this->valnum;
+				break;
+			case 'SESENTA':
+			  $this->valnum="SIXTY"." ".$this->valnum;
+				break;
+			case 'SETENTA':
+			  $this->valnum="SEVENTY"." ".$this->valnum;  
+				break;
+			case 'OCHENTA':
+			  $this->valnum="EIGTHY"." ".$this->valnum; 
+				break;
+			case 'NOVENTA':
+			  $this->valnum="NINETY"." ".$this->valnum;  
+				break;
+			case 'CIEN':
+			  $this->valnum="ONE HUNDRED"." ".$this->valnum; 
+				break;
+			case 'DOSCIENTOS':
+			  $this->valnum="TWO HUNDRED"." ".$this->valnum; 
+				break;
+			case 'TRESCIENTOS':
+			  $this->valnum="THREE HUNDRED"." ".$this->valnum;  
+				break;
+			case 'CUATROCIENTOS':
+			  $this->valnum="FOUR HUNDRED"." ".$this->valnum;  
+				break;
+			case 'QUINIENTOS':
+			  $this->valnum="FIVE HUNDRED"." ".$this->valnum;  
+				break;
+			case 'SETECIENTOS':
+			  $this->valnum="SIX HUNDRED"." ".$this->valnum; 
+				break;
+			case 'SETECIENTOS':
+			  $this->valnum="SEVEN HUNDRED"." ".$this->valnum;  
+				break;
+			case 'OCHOCIENTOS':
+			  $this->valnum="EIGTH HUNDRED"." ".$this->valnum;  
+				break;
+			case 'NOVECIENTOS':
+			  $this->valnum="NINE HUNDRED"." ".$this->valnum;  
+				break;
+			case 'MIL':
+			  $this->valnum="THOUSAND"." ".$this->valnum;  
+				break;
+			case 'MILLON':
+			  $this->valnum="MILLION"." ".$this->valnum;  
+				break;
+			case 'MILLONES':
+			  $this->valnum="MILLIONS"." ".$this->valnum;  
+				break;
+			case 'Y':
+			  $this->valnum="AND"." ".$this->valnum;  
+				break;
+			default:
+			 $this->valnum=$this->valnum."";
+				break;
+		}
+	}
+
 	function unidad($numuero){
     $numu="";
     switch ($numuero)

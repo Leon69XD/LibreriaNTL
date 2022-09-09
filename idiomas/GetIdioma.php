@@ -273,7 +273,7 @@ class GetIdioma{
 				break;
 		}
 	}
-  //obligame
+  
 	function unidad($numuero){
     $numu="";
     switch ($numuero)
